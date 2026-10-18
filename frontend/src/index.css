@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #eef6f0; color: #1f3a2b; min-height: 100vh; padding: 24px 16px; }
+.carte { max-width: 420px; margin: 0 auto; background: white; border-radius: 18px; padding: 24px; box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+h1 { font-size: 1.4rem; margin-bottom: 4px; }
+h2 { font-size: 1.1rem; margin: 22px 0 8px; }
+.sous { color: #6b8576; margin-bottom: 16px; }
+form { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+input { padding: 11px 14px; border: 1px solid #c9ddd0; border-radius: 10px; font-size: 1rem; }
+button { padding: 11px; border: none; border-radius: 10px; background: #2f8f5b; color: white; font-size: 1rem; cursor: pointer; }
+button.lien { background: none; color: #2f8f5b; margin-top: 10px; padding: 4px; font-size: .9rem; }
+.erreur { color: #c0392b; font-size: .9rem; }
+.succes { color: #2f8f5b; font-size: .95rem; margin-top: 8px; }
+.entete { display: flex; justify-content: space-between; align-items: center; }
+.solde { background: #eef6f0; border-radius: 14px; padding: 16px; margin: 14px 0; display: flex; align-items: baseline; gap: 8px; }
+.solde strong { font-size: 2rem; }
+.solde span { color: #6b8576; margin-left: auto; }
+.historique { list-style: none; }
+.historique li { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eef1ee; }
